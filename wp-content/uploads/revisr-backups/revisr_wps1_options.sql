@@ -19,7 +19,7 @@ CREATE TABLE `wps1_options` (
   `autoload` varchar(20) NOT NULL DEFAULT 'yes',
   PRIMARY KEY (`option_id`),
   UNIQUE KEY `option_name` (`option_name`)
-) ENGINE=InnoDB AUTO_INCREMENT=2248 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=2250 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `wps1_options` WRITE;
