@@ -19,12 +19,12 @@ CREATE TABLE `wps1_woocommerce_order_items` (
   `order_id` bigint(20) NOT NULL,
   PRIMARY KEY (`order_item_id`),
   KEY `order_id` (`order_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=18 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=19 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `wps1_woocommerce_order_items` WRITE;
 /*!40000 ALTER TABLE `wps1_woocommerce_order_items` DISABLE KEYS */;
-INSERT INTO `wps1_woocommerce_order_items` VALUES (5,'eCommerce Web Store WordPress iShopp','line_item',817),(8,'Modern Artwork Portfolio Business Website Wordpress Interactive','line_item',819),(9,'eCommerce Web Store WordPress iShopp','line_item',826),(11,'eCommerce Web Store WordPress WooCommerce StoreFront','line_item',829),(12,'Modern Artwork Portfolio Business Website Wordpress Interactive','line_item',833),(13,'99off','coupon',833),(16,'Modern Artwork Portfolio Business Website Wordpress Interactive','line_item',834),(17,'99off','coupon',834);
+INSERT INTO `wps1_woocommerce_order_items` VALUES (5,'eCommerce Web Store WordPress iShopp','line_item',817),(8,'Modern Artwork Portfolio Business Website Wordpress Interactive','line_item',819),(9,'eCommerce Web Store WordPress iShopp','line_item',826),(11,'eCommerce Web Store WordPress WooCommerce StoreFront','line_item',829),(12,'Modern Artwork Portfolio Business Website Wordpress Interactive','line_item',833),(13,'99off','coupon',833),(16,'Modern Artwork Portfolio Business Website Wordpress Interactive','line_item',834),(17,'99off','coupon',834),(18,'Modern Artwork Portfolio Business Website Wordpress Interactive','line_item',835);
 /*!40000 ALTER TABLE `wps1_woocommerce_order_items` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
