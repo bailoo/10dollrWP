@@ -26,12 +26,12 @@ CREATE TABLE `wps1_users` (
   PRIMARY KEY (`ID`),
   KEY `user_login_key` (`user_login`),
   KEY `user_nicename` (`user_nicename`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `wps1_users` WRITE;
 /*!40000 ALTER TABLE `wps1_users` DISABLE KEYS */;
-INSERT INTO `wps1_users` VALUES (1,'bailoo','$P$BZ/vpn7hbRuYYtxl9WKJr8es9vpkwQ0','bailoo','abhishek.singh.bailoo@gmail.com','','2016-02-06 09:31:25','',0,'bailoo'),(2,'ckb9nv','$P$BlZYie8wV3hA4J/zMoMSFve0EAjyur0','ckb9nv','m4m5h2q@one.pikapacu.com','','2016-02-25 08:53:06','1456390389:$P$B8lFjeN8wqpZJGkIYZk0r876ja1qvJ/',0,'ckb9nv');
+INSERT INTO `wps1_users` VALUES (1,'bailoo','$P$BZ/vpn7hbRuYYtxl9WKJr8es9vpkwQ0','bailoo','abhishek.singh.bailoo@gmail.com','','2016-02-06 09:31:25','',0,'bailoo'),(3,'Alvina7zr','$P$BkGQgAjymSLXTfUNAeGkImgAGPJ.Kt0','alvina7zr','Adrian.Kimak@poczta.pl','','2016-02-25 10:21:05','1456395668:$P$BCoNuHa/olTDTeiAOedq2JUv7EDlyp.',0,'Alvina7zr');
 /*!40000 ALTER TABLE `wps1_users` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
